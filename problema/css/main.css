@@ -1,15 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
 }
 #banner{
     background-image: url(../image/large.jpg);
     background-size: cover;
     width: 100%;
     height: 700px;
-
-
-
 
 }
 .opaco_banner{
@@ -47,34 +46,129 @@ padding: 15px 40px;
     color: white;
     padding: 18% 24% 9% 24%;
 }
+
 h1{
-    font-size:45px;
+    font-size:40px;
     text-align: center;
 }
 
-
+h4{
+    font-size: 30px;
+    color:
+}
 .prueb-grat{
-    background-color: #4E7EB8;
+    background-color: rgba(55, 148, 242, 0.9);
     opacity: 0.6;
-
-    height: 209px;
+    height: 218px;
     text-align: center;
+
+
+}
+.text_prueb{
     color: white;
+    margin-top:-160px;
 }
 
+
+#izq{
+    margin-top: 0px;
+    text-align: right;
+}
+button{
+    margin-top:25px;
+    border: 2px solid white;
+    padding: 7px 28px;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    font-size: 28px;
+}
 .serv{
 
     text-align: center;
-    padding:85px 65px ;
+    padding:85px 20px ;
     }
 
-i{  
-    border:1px solid  blue;
-    font-size: 20px;
+i{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+    font-size: 30px;
     background-color: white;
     padding: 35px;
+    color:#58A5FF;
 
 }
-#right{
+section{
+    padding:110px 0px 30px 0px;
+}
+#nuestros_servicios h1{
+    color:#58A5FF;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    color:#58A5FF;
+}
+h4{
+    font-size: 28px;
+    color: #43617e;
+}
+.separador{
+
+    height: 1px;
+    background-color:#58A5FF;
+    text-align: center;
+    position: relative;
+}
+.separador img{
+    text-align: center;
+
+    margin-top: -50px;
+}
+
+h3 img{
+    width: 15em;
+
+}
+
+.sec2 {
+    background-image: url(../image/sec-2.jpg);
+    background-size: cover;
+    height: 530px;
+}
+.sec2_text{
+    padding-left: 50px;
+}
+.sec2 nav{
     float: right;
+
+}
+.sec2 nav li{
+    text-decoration: none;
+list-style: none;
+padding-bottom: 95px;
+
+}
+
+iframe{
+    width: 100%;
+
+}
+.sect {
+    text-align: center;
+}
+.instruc{
+    font-size: 25px;
+}
+#pasos{
+    padding: 0px;
+    margin: 0px;
+    border-top: 1px solid #58A5FF;
+    border-bottom: 1px solid #58A5FF;
+}
+#pasos i{
+
+    font-size: 30px;
+    background-color: #58A5FF;
+    padding: 25px;
+    color:white;
 }
