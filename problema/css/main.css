@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
 }
 #banner{
     background-image: url(../image/large.jpg);
@@ -14,7 +14,8 @@
 .opaco_banner{
 
     	background-color: rgba(0,0,0,0.4);
-    	height: 700px;
+    	background-size: cover;
+        height: 700px;
 
 }
 .row{
@@ -42,9 +43,19 @@ padding: 15px 40px;
 .text_img{
 
     text-align: center;
-    padding-top: 205px;
+    padding: 18% 23% 0% 23%;
     color: white;
-    padding: 18% 24% 9% 24%;
+
+}
+.boton-grat{
+    margin: 11% 0%;
+    height: 160px;
+
+    color: white;
+    text-align: center;
+    background-color:rgba(55, 148, 242, 0.9);
+    position: relative;
+    bottom: 0;
 }
 
 h1{
@@ -56,24 +67,11 @@ h4{
     font-size: 30px;
     color:
 }
-.prueb-grat{
-    background-color: rgba(55, 148, 242, 0.9);
-    opacity: 0.6;
-    height: 218px;
-    text-align: center;
 
 
-}
-.text_prueb{
-    color: white;
-    margin-top:-160px;
-}
 
 
-#izq{
-    margin-top: 0px;
-    text-align: right;
-}
+
 button{
     margin-top:25px;
     border: 2px solid white;
@@ -157,7 +155,7 @@ iframe{
     text-align: center;
 }
 .instruc{
-    font-size: 25px;
+    font-size: 20px;
 }
 #pasos{
     padding: 0px;
@@ -171,4 +169,59 @@ iframe{
     background-color: #58A5FF;
     padding: 25px;
     color:white;
+}
+.user{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+footer{
+padding: 40px 30px;
+    background-color: #2A3541;
+    height: 130px;
+    color: white;
+}
+#prueb-grat{
+    margin: 0%;
+    padding: 0px;
+}
+span{
+color: #43617e;
+}
+.redes i{
+    font-size: 40px;
+    background-color: transparent;
+    color: #58A5FF;
+    box-shadow: none;
+    float: right;
+    margin-right: 20px;
+    padding: 0px;
+
+}
+/*CONTACT US*/
+.contact_banner{
+background-image: url(../image/large.jpg);
+background-size: cover;
+height: 700px;
+
+}
+.formulario{
+    width: 500px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    text-align: left;
+    border-top: 3px solid #72a0d9;
+    padding: 0% 3% ;
+
+}
+input{
+    width: 300px;
+}
+.red{
+    color: red;
+}
+label{
+width:2%; 
 }
