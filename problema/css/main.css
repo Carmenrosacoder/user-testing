@@ -140,14 +140,17 @@ h3 img{
 }
 .sec2 nav{
     float: right;
+    margin-right: -9%;
 
 }
 .sec2 nav li{
-    text-decoration: none;
+text-decoration: none;
 list-style: none;
 padding-bottom: 95px;
 
+
 }
+
 
 iframe{
     width: 100%;
