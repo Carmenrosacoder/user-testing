@@ -1,0 +1,12 @@
+@media  screen and(min-width: 720px){
+    .boton-grat{
+    margin: 11% 0%;
+    height: 290px;
+
+    color: white;
+    text-align: center;
+    background-color:rgba(55, 148, 242, 0.9);
+    
+}
+
+}
