@@ -27,8 +27,7 @@
 .navbar{
     padding-top: 35px;
     border: none;
-    background-color: rgba(0,0,0,0.2
-        )
+    background-color: rgba(0,0,0,0.2);
 }
 .navbar-default .navbar-nav > li > a{
     color: white;
@@ -115,7 +114,8 @@ h4{
 .separador{
 
     height: 1px;
-    background-color:#58A5FF;
+    background-color:rgba(0,0,0,0.2
+        );
     text-align: center;
     position: relative;
 }
@@ -165,8 +165,10 @@ iframe{
 #pasos{
     padding: 0px;
     margin: 0px;
-    border-top: 1px solid #58A5FF;
-    border-bottom: 1px solid #58A5FF;
+    border-top: 1px solid rgba(0,0,0,0.2
+        );
+    border-bottom: 1px solid rgba(0,0,0,0.2
+        );
 }
 #pasos i{
 
